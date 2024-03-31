@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Gallery</title>
+    <style>
+        .body{
+            color:redl;background-color: rgba(199, 255, 236, 0.527);
+            border:1px solid black;
+            border-radius:10px;
+            padding:10px;
+            margin:10px;
+        }
+        .keyboard-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .keyboard-card {
+            width: calc(33.33% - 20px); /* 3 items per row with gap of 20px */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .keyboard-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .keyboard-card h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .keyboard-card p {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="keyboard-container">
+        <div class="keyboard-card">
+            <img src="https://m.media-amazon.com/images/I/616fdRSET7L._AC_UY218_.jpg" alt="Keyboard 1" width="350px" height="210px">
+            <h3>Mechanical Keyboard</h3>
+            <p>Price: $100</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="keyboard-card">
+            <img src="https://m.media-amazon.com/images/I/51DY+QrEpOL._AC_UY218_.jpg" alt="Keyboard 2" width="350px" height="210px">
+            <h3>Gaming Keyboard</h3>
+            <p>Price: $80</p>
+            <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="keyboard-card">
+            <img src="https://m.media-amazon.com/images/I/61hHUfxyVmL._AC_UY218_.jpg" alt="Keyboard 3" width="350px" height="210px">
+            <h3>Wireless Keyboard</h3>
+            <p>Price: $50</p>
+            <p>Description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+        <!-- Add more keyboard cards as needed -->
+        <div class="keyboard-card">
+            <img src="https://m.media-amazon.com/images/I/61huxCs056L._AC_UY218_.jpg" alt="Keyboard 1" width="350px" height="210px">
+            <h3>Mechanical Keyboard</h3>
+            <p>Price: $100</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="keyboard-card">
+            <img src="https://m.media-amazon.com/images/I/712n88HBTYL._AC_UY218_.jpg" alt="Keyboard 2" width="350px" height="210px">
+            <h3>Gaming Keyboard</h3>
+            <p>Price: $80</p>
+            <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="keyboard-card">
+            <img src="https://m.media-amazon.com/images/I/61fl+k9O-FL._AC_UY218_.jpg" alt="Keyboard 3" width="350px" height="210px">
+            <h3>Wireless Keyboard</h3>
+            <p>Price: $50</p>
+            <p>Description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+    </div>
+</body>
+</html>
